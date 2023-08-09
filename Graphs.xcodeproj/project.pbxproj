@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		352DF93D2A657ADE00C4DD38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352DF93C2A657ADE00C4DD38 /* main.cpp */; };
+		352DF9452A657BAD00C4DD38 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352DF9432A657BAD00C4DD38 /* graph.cpp */; };
+		352DF9482A65F5B600C4DD38 /* graphv2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352DF9462A65F5B600C4DD38 /* graphv2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		352DF9392A657ADE00C4DD38 /* Graphs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graphs; sourceTree = BUILT_PRODUCTS_DIR; };
 		352DF93C2A657ADE00C4DD38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		352DF9432A657BAD00C4DD38 /* graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		352DF9442A657BAD00C4DD38 /* graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = graph.hpp; sourceTree = "<group>"; };
+		352DF9462A65F5B600C4DD38 /* graphv2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graphv2.cpp; sourceTree = "<group>"; };
+		352DF9472A65F5B600C4DD38 /* graphv2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = graphv2.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				352DF93C2A657ADE00C4DD38 /* main.cpp */,
+				352DF9432A657BAD00C4DD38 /* graph.cpp */,
+				352DF9442A657BAD00C4DD38 /* graph.hpp */,
+				352DF9462A65F5B600C4DD38 /* graphv2.cpp */,
+				352DF9472A65F5B600C4DD38 /* graphv2.hpp */,
 			);
 			path = Graphs;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352DF9452A657BAD00C4DD38 /* graph.cpp in Sources */,
+				352DF9482A65F5B600C4DD38 /* graphv2.cpp in Sources */,
 				352DF93D2A657ADE00C4DD38 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
