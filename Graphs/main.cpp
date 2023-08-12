@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include "graph.hpp"
-#include "graphv2.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -47,7 +46,7 @@ int main(int argc, const char * argv[]) {
         {0, 0, 1, 0, 0, 1},
         {0, 1, 1, 0, 1, 0}
     };
-    graphv2<int>g1(matrix5);
+    graph<int>g1(matrix5);
     g1.print();
     
     std::unordered_set<int> visited;
