@@ -46,11 +46,43 @@ int main(int argc, const char * argv[]) {
         {0, 0, 1, 0, 0, 1},
         {0, 1, 1, 0, 1, 0}
     };
-    graph<int>g1(matrix5);
-    g1.print();
     
-    std::unordered_set<int> visited;
-    std::cout << g1.hasPath(1, 5, visited) << "\n";
+    graph g1(matrix);
+    graph g2(matrix2);
+    graph g3(matrix3);
+    std::vector<int> result;
+    
+    result = g1.bfs(0);
+    for (const auto & v : result) std::cout << v << " ";
+    std::cout << "\n";
+    
+    result = g1.bfs(1);
+    for (const auto & v : result) std::cout << v << " ";
+    std::cout << "\n";
+    
+    result = g1.bfs(2);
+    for (const auto & v : result) std::cout << v << " ";
+    std::cout << "\n";
+    
+    result = g1.bfs(3);
+    for (const auto & v : result) std::cout << v << " ";
+    std::cout << "\n";
+
+    
+    
+//    graph<int>g1(matrix5);
+    
+    
+    
+//    g1.addEdge(0, 2);
+//    g1.print();
+//    std::vector<int> bfs = g1.bfs(0);
+//
+//    for (const auto  & v : bfs) std::cout << v << " ";
+//
+//
+//    std::unordered_set<int> visited;
+    //std::cout << g1.hasPath(1, 5, visited) << "\n";
     
     
     
